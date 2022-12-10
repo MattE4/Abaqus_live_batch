@@ -2,6 +2,7 @@
 Monitors a folder and runs all .inp sequentially that are placed in the folder
 
 <br>
+
 - Place script in a dedicated folder
 - Add an abaqus_v6.env in the folder to define default settings for memory and cpus/cores
 
@@ -20,8 +21,3 @@ Monitors a folder and runs all .inp sequentially that are placed in the folder
 - Add a file named end.txt into the folder to end the script
 	- A currently running job will continue to run
 	- Use command line to terminate it if needed (cmd: abaqus j=jobname terminate)
-
-<br>
-
-
-Usage at your own risk.
